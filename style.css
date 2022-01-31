@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eaeaea;
+  font-family: 'Roboto', sans-serif;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  background-color:white;
+  margin:3rem;
+  border-radius: 1rem;
+}
+
+.header{
+  display: flex;
+  justify-content: center; 
+  padding: 1rem;
+  padding-top: 2rem;
+}
+
+.img_waffle{
+  display:flex;
+  justify-content: center;
+}
+
+.img_waffle img{
+  border-radius: 2rem;
+}
+
+.legenda_img{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  color: #8F8F8F;
+}
+
+.container_recipe{
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.container_recipe h2{
+  display: flex;
+  justify-content: center;
+  color: #1B1B1B;
+}
+footer{
+  text-align: center;
+}
